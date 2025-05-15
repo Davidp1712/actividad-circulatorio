@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Arrastra y Suelta: Circulatorio</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="container">
+  <h2>1. Relaciona cada parte del corazón con su función</h2>
+  <div>
+    <div class="label">Opciones para arrastrar:</div>
+    <div id="drag-items-1">
+      <div class="draggable" draggable="true">Recibe sangre pobre en oxígeno de las venas cavas</div>
+      <div class="draggable" draggable="true">Recibe sangre rica en oxígeno de las venas pulmonares</div>
+      <div class="draggable" draggable="true">Bombea sangre pobre en oxígeno hacia los pulmones</div>
+      <div class="draggable" draggable="true">Bombea sangre rica en oxígeno hacia la aorta</div>
+      <div class="draggable" draggable="true">Permite el paso de sangre de la aurícula izquierda al ventrículo izquierdo</div>
+      <div class="draggable" draggable="true">Permite el paso de sangre de la aurícula derecha al ventrículo derecho</div>
+      <div class="draggable" draggable="true">Impide el retorno de sangre de la aorta al ventrículo izquierdo</div>
+      <div class="draggable" draggable="true">Impide el retorno de sangre de la arteria pulmonar al ventrículo derecho</div>
+    </div>
+    <table>
+      <tr><td>Aurícula derecha</td><td><div class="dropzone" data-answer="Recibe sangre pobre en oxígeno de las venas cavas"></div></td></tr>
+      <tr><td>Aurícula izquierda</td><td><div class="dropzone" data-answer="Recibe sangre rica en oxígeno de las venas pulmonares"></div></td></tr>
+      <tr><td>Ventrículo derecho</td><td><div class="dropzone" data-answer="Bombea sangre pobre en oxígeno hacia los pulmones"></div></td></tr>
+      <tr><td>Ventrículo izquierdo</td><td><div class="dropzone" data-answer="Bombea sangre rica en oxígeno hacia la aorta"></div></td></tr>
+      <tr><td>Válvula mitral</td><td><div class="dropzone" data-answer="Permite el paso de sangre de la aurícula izquierda al ventrículo izquierdo"></div></td></tr>
+      <tr><td>Válvula tricúspide</td><td><div class="dropzone" data-answer="Permite el paso de sangre de la aurícula derecha al ventrículo derecho"></div></td></tr>
+      <tr><td>Válvula aórtica</td><td><div class="dropzone" data-answer="Impide el retorno de sangre de la aorta al ventrículo izquierdo"></div></td></tr>
+      <tr><td>Válvula pulmonar</td><td><div class="dropzone" data-answer="Impide el retorno de sangre de la arteria pulmonar al ventrículo derecho"></div></td></tr>
+    </table>
+  </div>
+
+  <h2>2. Relaciona el síntoma con la patología más probable</h2>
+  <div>
+    <div class="label">Opciones para arrastrar:</div>
+    <div id="drag-items-2">
+      <div class="draggable" draggable="true">Infarto agudo de miocardio</div>
+      <div class="draggable" draggable="true">Angina de pecho estable</div>
+      <div class="draggable" draggable="true">Insuficiencia cardíaca</div>
+      <div class="draggable" draggable="true">Feocromocitoma</div>
+      <div class="draggable" draggable="true">Endocarditis</div>
+    </div>
+    <table>
+      <tr><td>Dolor torácico intenso, irradiado a brazo izquierdo, no cede con nitritos</td><td><div class="dropzone" data-answer="Infarto agudo de miocardio"></div></td></tr>
+      <tr><td>Dolor torácico que aparece con el esfuerzo y cede en reposo</td><td><div class="dropzone" data-answer="Angina de pecho estable"></div></td></tr>
+      <tr><td>Disnea, ortopnea, edema en tobillos</td><td><div class="dropzone" data-answer="Insuficiencia cardíaca"></div></td></tr>
+      <tr><td>Palpitaciones, sudor, temblor, ansiedad, palidez</td><td><div class="dropzone" data-answer="Feocromocitoma"></div></td></tr>
+      <tr><td>Fiebre, soplo cardíaco, vegetaciones en ecocardiografía</td><td><div class="dropzone" data-answer="Endocarditis"></div></td></tr>
+    </table>
+  </div>
+
+  <h2>3. Ordena las fases del ciclo cardíaco</h2>
+  <div class="sortable-list" id="sortable-list">
+    <div class="sortable-item" draggable="true">Contracción auricular (diástole ventricular)</div>
+    <div class="sortable-item" draggable="true">Apertura de válvulas auriculoventriculares</div>
+    <div class="sortable-item" draggable="true">Contracción ventricular (sístole ventricular)</div>
+    <div class="sortable-item" draggable="true">Cierre de válvulas semilunares</div>
+    <div class="sortable-item" draggable="true">Relajación ventricular (diástole)</div>
+  </div>
+
+  <h2>4. Relaciona el concepto con su definición</h2>
+  <div>
+    <div class="label">Definiciones para arrastrar:</div>
+    <div id="drag-items-4">
+      <div class="draggable" draggable="true">Grado de estiramiento de las fibras miocárdicas antes de la contracción ventricular</div>
+      <div class="draggable" draggable="true">Carga contra la que el corazón debe contraerse para expulsar la sangre</div>
+      <div class="draggable" draggable="true">Fase de contracción del músculo cardíaco</div>
+      <div class="draggable" draggable="true">Fase de relajación y llenado del corazón</div>
+    </div>
+    <table>
+      <tr><td>Precarga</td><td><div class="dropzone" data-answer="Grado de estiramiento de las fibras miocárdicas antes de la contracción ventricular"></div></td></tr>
+      <tr><td>Poscarga</td><td><div class="dropzone" data-answer="Carga contra la que el corazón debe contraerse para expulsar la sangre"></div></td></tr>
+      <tr><td>Sístole</td><td><div class="dropzone" data-answer="Fase de contracción del músculo cardíaco"></div></td></tr>
+      <tr><td>Diástole</td><td><div class="dropzone" data-answer="Fase de relajación y llenado del corazón"></div></td></tr>
+    </table>
+  </div>
+
+  <button id="resolver">Resolver</button>
+</div>
+<script src="funciones.js"></script>
+</body>
+</html>
