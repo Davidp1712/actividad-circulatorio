@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; background: #f7f7f7; }
+h2 { color: #2a4d7a; }
+.container { margin: 20px auto; max-width: 900px; background: #fff; padding: 20px; border-radius: 10px; }
+.dropzone, .sortable-list { min-height: 40px; border: 2px dashed #bbb; border-radius: 6px; margin: 8px 0; padding: 8px; background: #f0f8ff; transition: background 0.3s; }
+.draggable, .sortable-item { display: inline-block; background: #e3eaff; color: #2a4d7a; padding: 6px 12px; margin: 4px; border-radius: 5px; cursor: grab; font-weight: bold; }
+.sortable-list { display: flex; flex-direction: column; }
+.sortable-item { width: 100%; margin: 2px 0; }
+.label { font-weight: bold; }
+.dropzone .draggable { margin: 0; }
+.correct-zone { background: #d4f8d4 !important; border-color: #4caf50 !important; }
+.incorrect-zone { background: #ffd6d6 !important; border-color: #e53935 !important; }
+.disabled, .disabled * { pointer-events: none !important; opacity: 0.7; }
+button { margin: 30px 0 0 0; padding: 10px 30px; font-size: 1.1em; background: #2a4d7a; color: #fff; border: none; border-radius: 6px; cursor: pointer; }
+button:active { background: #18304a; }
